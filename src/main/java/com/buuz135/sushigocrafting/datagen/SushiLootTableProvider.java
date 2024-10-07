@@ -78,6 +78,7 @@ public class SushiLootTableProvider extends LootTableProvider {
             this.dropLeaves(SushiContent.Blocks.AVOCADO_LEAVES, SushiContent.Blocks.AVOCADO_SAPLING);
             this.dropLeavesSpecial(SushiContent.Blocks.AVOCADO_LEAVES_LOG, SushiContent.Blocks.AVOCADO_LOG);
             this.add(SushiContent.Blocks.COOLER_BOX.get(), noDrop());
+            knownBlocks.add(SushiContent.Blocks.COOLER_BOX.get());
         }
 
         private void crop(Supplier<CustomCropBlock> blockSupplier, Supplier<? extends Item> extra) {

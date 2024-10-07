@@ -8,7 +8,6 @@ import com.buuz135.sushigocrafting.datagen.*;
 import com.buuz135.sushigocrafting.item.FoodItem;
 import com.buuz135.sushigocrafting.item.SushiDataComponent;
 import com.buuz135.sushigocrafting.network.CapabilitySyncMessage;
-import com.buuz135.sushigocrafting.proxy.SushiCompostables;
 import com.buuz135.sushigocrafting.proxy.SushiContent;
 import com.buuz135.sushigocrafting.tile.machinery.*;
 import com.hrznstudio.titanium.block.tile.ActiveTile;
@@ -173,7 +172,7 @@ public class SushiGoCrafting extends ModuleController {
     }
 
     public void fmlCommon(FMLCommonSetupEvent event) {
-        SushiCompostables.init();
+
     }
 
     public void dataGen(GatherDataEvent event) {
@@ -186,6 +185,7 @@ public class SushiGoCrafting extends ModuleController {
         event.getGenerator().addProvider(true, new SushiItemTagsProvider(event.getGenerator().getPackOutput(), event.getLookupProvider(), provider.contentsGetter(), event.getExistingFileHelper()));
         event.getGenerator().addProvider(true, new SushiLootTableProvider(event.getGenerator(), event.getLookupProvider()));
         event.getGenerator().addProvider(true, new SushiRecipeProvider(event.getGenerator(), event.getLookupProvider()));
+        event.getGenerator().addProvider(true, new SushiDataMapProvider(event.getGenerator().getPackOutput(), event.getLookupProvider()));
     }
 
 

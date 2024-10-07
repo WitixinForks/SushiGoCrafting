@@ -1,9 +1,9 @@
-// 1.21.1	2024-08-18T12:42:49.8661613	Loot Tables
+// 1.21.1	2024-10-07T12:27:21.9625639	Loot Tables
 af104d0a022dfadcecb8d5ef3b9f65587c131378 data/sushigocrafting/loot_table/blocks/avocado_leaves.json
 ab49e785adfd4c4e9832539c63eb53b175f25352 data/sushigocrafting/loot_table/blocks/avocado_leaves_logged.json
 d34d3ab031007e85ffaaa4a260eb305d824b3494 data/sushigocrafting/loot_table/blocks/avocado_log.json
 5f4850ff9d2d64fb4c75d016ef8ceff2e7830fe0 data/sushigocrafting/loot_table/blocks/avocado_sapling.json
-e2bb1b3d37ad7e2f9ba6fd4b35519072de78f099 data/sushigocrafting/loot_table/blocks/cooler_box.json
+de84f2cf06aa8f04561dc8c7cbb76e251b018213 data/sushigocrafting/loot_table/blocks/cooler_box.json
 86429bcf2ff3e656c0ea6378d8e3c1109d1b149e data/sushigocrafting/loot_table/blocks/cucumber_crop.json
 d883674518bfe6e763f831d3a9a929ac66740e1f data/sushigocrafting/loot_table/blocks/cutting_board.json
 e2327898d0326e9ab0c08c2a67ca2790e6d91271 data/sushigocrafting/loot_table/blocks/fermentation_barrel.json
